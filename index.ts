@@ -1,6 +1,7 @@
 interface ClaseA {
     foo: string;
     bar: string;
+    lorem:string;
 } 
 
 let getParametros = (obj: ClaseA): Array<string> => Object.values(obj);  
@@ -9,7 +10,7 @@ let getParametros = (obj: ClaseA): Array<string> => Object.values(obj);
 const exampleClaseA: ClaseA = { 
     foo: "foo",
     bar: "bar",
-
+    lorem:"lorem",
 };
 
 console.log(getParametros(exampleClaseA));
