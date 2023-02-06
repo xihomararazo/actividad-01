@@ -13,3 +13,15 @@ const exampleClaseA: ClaseA = {
 };
 
 console.log(getParametros(exampleClaseA));
+
+
+interface ClaseC {
+    nom: string;
+    nom2: string;
+} 
+
+// ejemplo 
+const exampleClaseC: ClaseC = { 
+    nom: "1234",
+    nom2: "5678",
+};
