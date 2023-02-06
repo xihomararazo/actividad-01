@@ -1,7 +1,7 @@
 interface ClaseA {
     foo: string;
     bar: string;
-  } 
+} 
 
 let getParametros = (obj: ClaseA): Array<string> => Object.values(obj);  
 
@@ -25,3 +25,17 @@ const exampleClaseC: ClaseC = {
     nom: "1234",
     nom2: "5678",
 };
+
+
+interface ClaseB {
+    at1: number;
+    at2: number;
+} 
+
+// ejemplo 
+const exampleClaseB: ClaseB = { 
+    at1: 1,
+    at2: 2,
+};
+
+
